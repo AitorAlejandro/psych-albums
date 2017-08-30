@@ -1,5 +1,7 @@
 {
     "globals": {
-      "g_language": "es"
+      "g_language": "es",
+      "g_site_title": "Psych Albums",
+      "g_site_desc": "Colección de mis álbumes favoritos de psicodelia"
     }
   }
