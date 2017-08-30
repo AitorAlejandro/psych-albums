@@ -1,7 +1,11 @@
 doctype
-html(lang="#{ g_language }")
+html.no-js(lang="#{ g_language }")
   head
     meta(charset="utf-8")
+    meta(http-equiv="x-ua-compatible", content="ie=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+
+    title Psych Albums
     link(rel="stylesheet" href="main.css")
   body
     != yield
